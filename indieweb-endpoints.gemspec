@@ -1,10 +1,11 @@
+# coding: utf-8
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 require 'indieweb/endpoints/version'
 
 Gem::Specification.new do |spec|
-  spec.required_ruby_version = ['>= 2.4', '< 2.8']
+  spec.required_ruby_version = ['>= 2.4']
 
   spec.name          = 'indieweb-endpoints'
   spec.version       = IndieWeb::Endpoints::VERSION
